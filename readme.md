@@ -62,6 +62,8 @@ El script utiliza **cheerio** para analizar el HTML de la página web y extraer 
 
 ## 🎉 Ejemplo de Uso
 
+![Ejecución del Script](/prueba.gif)
+
 Al ejecutar el script, verás en la consola el progreso de descarga de cada imagen, y luego podrás encontrar todos los archivos en la carpeta `imagenes`.
 
 ## 🤝 Contribuciones
