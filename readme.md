@@ -62,8 +62,6 @@ El script utiliza **cheerio** para analizar el HTML de la página web y extraer 
 
 ## 🎉 Ejemplo de Uso
 
-![Ejecución del Script](https://via.placeholder.com/600x400)
-
 Al ejecutar el script, verás en la consola el progreso de descarga de cada imagen, y luego podrás encontrar todos los archivos en la carpeta `imagenes`.
 
 ## 🤝 Contribuciones
@@ -90,12 +88,6 @@ Las contribuciones son bienvenidas. Si deseas mejorar este script o agregar nuev
    ```
 
 5. Abre un Pull Request.
-
-## 📧 Contacto
-
-Si tienes alguna pregunta, no dudes en **contactarme**. Puedes abrir un **issue** en el repositorio o contactarme directamente a mi email: [tu-email@example.com](mailto:tu-email@example.com).
-
-¡Gracias por usar este proyecto! 💚📸✨
 
 ## 📜 Licencia
 
