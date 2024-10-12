@@ -1,26 +1,26 @@
-# Web Scraper de Fotos SIATA
+# 📸✨ Web Scraper de Fotos SIATA 🚀
 
-Este proyecto es un **script de Node.js** que realiza **web scraping** en la página de últimas fotos de cámaras de [SIATA](https://siata.gov.co/ultimasFotosCamaras/)**. El objetivo es **descargar todas las imágenes** disponibles en la página y guardarlas localmente en una carpeta, manteniendo los nombres originales de los archivos.
+Este proyecto es un **script de Node.js** que realiza **web scraping** en la página de últimas fotos de cámaras de [SIATA](https://siata.gov.co/ultimasFotosCamaras/). El objetivo es **descargar todas las imágenes** disponibles en la página y guardarlas localmente en una carpeta, manteniendo los nombres originales de los archivos.
 
-## Características
+## 🌟 Características
 
-- Descarga automática de todas las imágenes listadas en la web de SIATA.
-- Organiza las imágenes descargadas en una carpeta local, utilizando los mismos nombres que en la web.
-- Utiliza **Node.js** y **axios** para realizar las peticiones HTTP, además de **cheerio** para parsear el HTML.
+- 📥 Descarga automática de todas las imágenes listadas en la web de SIATA.
+- 🗂️ Organiza las imágenes descargadas en una carpeta local, utilizando los mismos nombres que en la web.
+- 🚀 Utiliza **Node.js** y **axios** para realizar las peticiones HTTP, además de **cheerio** para parsear el HTML.
 
-## Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 
 - [Node.js](https://nodejs.org/): Entorno de ejecución para JavaScript.
 - [axios](https://www.npmjs.com/package/axios): Cliente HTTP para realizar las solicitudes.
 - [cheerio](https://www.npmjs.com/package/cheerio): Librería que facilita el scraping al permitir manipular el DOM.
 
-## Instalación y Uso
+## 📦 Instalación y Uso
 
-### Requisitos Previos
+### ⚙️ Requisitos Previos
 
 Asegúrate de tener **Node.js** instalado en tu equipo. Además, necesitarás **npm** (que viene con Node.js) para instalar las dependencias necesarias.
 
-### Pasos para la Instalación
+### 📥 Pasos para la Instalación
 
 1. Clona este repositorio:
 
@@ -40,7 +40,7 @@ Asegúrate de tener **Node.js** instalado en tu equipo. Además, necesitarás **
    npm install
    ```
 
-### Ejecución del Script
+### ▶️ Ejecución del Script
 
 1. Para descargar todas las imágenes, ejecuta:
 
@@ -48,23 +48,25 @@ Asegúrate de tener **Node.js** instalado en tu equipo. Además, necesitarás **
    npm run start
    ```
 
-2. Las imágenes se guardarán en una carpeta llamada **`images`** dentro del directorio del proyecto.
+2. Las imágenes se guardarán en una carpeta llamada **`imagenes`** dentro del directorio del proyecto.
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
-- **index.js**: Script principal para realizar el scraping y las descargas de las imágenes.
-- **images/**: Carpeta donde se almacenarán todas las imágenes descargadas.
+- **scraper.js**: Script principal para realizar el scraping y las descargas de las imágenes.
+- **imagenes/**: Carpeta donde se almacenarán todas las imágenes descargadas.
 - **package.json**: Archivo de configuración del proyecto con las dependencias necesarias.
 
-## Detalles Técnicos
+## 🔍 Detalles Técnicos
 
 El script utiliza **cheerio** para analizar el HTML de la página web y extraer los enlaces a las imágenes. Luego, con **axios** se descargan cada una de las imágenes de forma secuencial, asegurándose de mantener los nombres de archivo originales.
 
-## Ejemplo de Uso
+## 🎉 Ejemplo de Uso
 
-Al ejecutar el script, verás en la consola el progreso de descarga de cada imagen, y luego podrás encontrar todos los archivos en la carpeta `images`.
+![Ejecución del Script](https://via.placeholder.com/600x400)
 
-## Contribuciones
+Al ejecutar el script, verás en la consola el progreso de descarga de cada imagen, y luego podrás encontrar todos los archivos en la carpeta `imagenes`.
+
+## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas mejorar este script o agregar nuevas características, sigue estos pasos:
 
@@ -89,6 +91,12 @@ Las contribuciones son bienvenidas. Si deseas mejorar este script o agregar nuev
 
 5. Abre un Pull Request.
 
-## Licencia
+## 📧 Contacto
+
+Si tienes alguna pregunta, no dudes en **contactarme**. Puedes abrir un **issue** en el repositorio o contactarme directamente a mi email: [tu-email@example.com](mailto:tu-email@example.com).
+
+¡Gracias por usar este proyecto! 💚📸✨
+
+## 📜 Licencia
 
 Este proyecto está bajo la licencia **MIT** - consulta el archivo [LICENSE](LICENSE) para más detalles.
