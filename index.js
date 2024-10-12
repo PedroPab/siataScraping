@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const BASE_URL = 'https://siata.gov.co/ultimasFotosCamaras/';
+const FOLDER_SAVE = 'images';
 
 async function fetchPage() {
   try {
@@ -48,7 +49,7 @@ async function scrapeImages() {
     }
   });
 
-  const folderPath = path.join(__dirname, 'imagenes_siata');
+  const folderPath = path.join(__dirname, FOLDER_SAVE);
   if (!fs.existsSync(folderPath)) {
     fs.mkdirSync(folderPath);
   }
